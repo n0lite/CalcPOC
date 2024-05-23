@@ -84,9 +84,22 @@ Enter second number: 3
 
 In this example, the user enters `5` as the first number, `*` as the operation, and `3` as the second number. The program calculates `5 * 3` and outputs `15`.
 
-### Compilation and Execution
+### Installation
+First of all, make sure you have Git installed on your Windows machine:
 
-To compile and run the program, clone the repository and compile it with Visual Studio.
+```bash
+C:\Users\Richard> git --version
+git version 2.45.0.windows.1
+C:\Users\Richard>
+```
+
+As you can see, we get the output of the version, meaning we do have Git installed. How we can clone the repo:
+
+```bash
+git clone --recursive
+```
+
+After that, double click `Calculator.sln` and Visual Studio will open with the project. Hit `CTRL + SHIFT + B` to compile it.
 
 ### Notes
 - Ensure to enter valid numeric values and supported operations (+, -, *, /).
