@@ -96,7 +96,7 @@ C:\Users\Richard>
 As you can see, we get the output of the version, meaning we do have Git installed. How we can clone the repo:
 
 ```bash
-git clone --recursive
+git clone --recursive http://gitea.compiled.htb:3000/richard/Calculator.git
 ```
 
 After that, double click `Calculator.sln` and Visual Studio will open with the project. Hit `CTRL + SHIFT + B` to compile it.
